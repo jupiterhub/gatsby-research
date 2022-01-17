@@ -1,9 +1,11 @@
+import { Link } from "gatsby";
 import * as React from "react";
 
 const AboutPage = () => {
   return (
     <main>
       <title>Learn more</title>
+      <Link to="/">Home</Link>
       <h1>What is Pipu</h1>
       <ol>
         <li>One match at a time</li>

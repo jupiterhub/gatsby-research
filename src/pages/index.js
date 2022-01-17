@@ -1,3 +1,4 @@
+import { Link } from "gatsby";
 import * as React from "react";
 
 const IndexPage = () => {
@@ -6,6 +7,7 @@ const IndexPage = () => {
       <title>Home Page</title>
       <h1>Welcome to Pipu!</h1>
       <p>Humanizing dating apps.</p>
+      <Link to="about">Learn More</Link>
     </main>
   );
 };
