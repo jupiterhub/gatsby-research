@@ -1,18 +1,17 @@
 import { Link } from "gatsby";
 import * as React from "react";
+import Layout from "./layout";
 
 const AboutPage = () => {
   return (
-    <main>
-      <title>Learn more</title>
-      <Link to="/">Home</Link>
+    <Layout pageTitle="About">
       <h1>What is Pipu</h1>
       <ol>
         <li>One match at a time</li>
         <li>Profile unblurs the more you get to know the other person</li>
         <li>Learn about a persons, Goals, Values, and interests</li>
       </ol>
-    </main>
+    </Layout>
   );
 };
 
