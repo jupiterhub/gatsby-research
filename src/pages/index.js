@@ -4,9 +4,7 @@ import Layout from "./layout";
 
 const IndexPage = () => {
   return (
-    <Layout pageTitle="home">
-      <title>Home Page</title>
-      <h1>Welcome to Pipu!</h1>
+    <Layout pageTitle="Welcome to Pipu!">
       <p>Humanizing dating apps.</p>
       <StaticImage
         alt="I am a cute Kat"

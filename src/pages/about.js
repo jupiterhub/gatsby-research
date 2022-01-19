@@ -4,8 +4,7 @@ import Layout from "./layout";
 
 const AboutPage = () => {
   return (
-    <Layout pageTitle="About">
-      <h1>What is Pipu</h1>
+    <Layout pageTitle="What is Pipu">
       <ol>
         <li>One match at a time</li>
         <li>Profile unblurs the more you get to know the other person</li>
