@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `gatsby-research`,
+    title: `Gatsby App`,
     description: "evaluating gatsby",
     siteUrl: `https://www.gatsby-reasearch.com`,
     customProperty: "will graphQL data be able to catch this",
