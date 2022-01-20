@@ -8,11 +8,12 @@ Recommended for building static frontend sites. Blogs, Homepages, etc.
 
 **About Gatsby**
 
-It's a framework built on top of React. Specifically well at serving static pages. It's fast. As for development setup The boostrapping process is a breeze. Building your application and deployment are taken care of by Gatsby cloud (you can still publish to a host of your choice).
+It's a framework built on top of React. Specifically well at serving static pages because you can customize your data sources easily, and It's fast.
+As for development setup The boostrapping process is a breeze. Building your application and deployment are taken care of by Gatsby cloud (you can still publish to a host of your choice).
 
-Customizing your Gatsby project is also very easy with plugins for adding typescript support, css modules, getting data from a CMS, and so forth.
+Customizing your Gatsby project is also fast with plugins for adding typescript support, css modules, reading mdx files, getting data from a CMS, and so forth.
 
-The real power is that it comes by default with GraphQL which serves as the interface for all your data (local, cms, db, etc.).
+The real power is that it comes by default with GraphQL which serves as the interface for all your data (local, cms, db, etc.). As far as the application is concerned. it's all just grapqhl request. I like this separation of concerns
 
 **About the documentation format**
 
