@@ -8,7 +8,8 @@ Recommended for building static frontend sites. Blogs, Homepages, etc.
 
 **About Gatsby**
 
-It's a framework built on top of React. Specifically well at serving static pages because you can customize your data sources easily, and It's fast.
+It's a framework built on top of React. Specifically well at serving static pages because you can customize your data sources easily, and It's fast. Sometimes hot reload is not working, when adding new files or dependencies, and you would need to restart app to see the changes.
+
 As for development setup The boostrapping process is a breeze. Building your application and deployment are taken care of by Gatsby cloud (you can still publish to a host of your choice).
 
 Customizing your Gatsby project is also fast with plugins for adding typescript support, css modules, reading mdx files, getting data from a CMS, and so forth.

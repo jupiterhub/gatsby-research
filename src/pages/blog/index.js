@@ -1,12 +1,9 @@
-import { graphql } from "gatsby";
+import { graphql, Link } from "gatsby";
 import * as React from "react";
-import Layout from "./layout";
-import { title, posted, body } from "./blog.module.css";
-import { MDXRenderer } from "gatsby-plugin-mdx";
+import Layout from "../layout";
 
 // data prop is default and passed
 const BlogPage = ({ data }) => {
-  console.log("data", data);
   return (
     <Layout pageTitle="Stories">
       <p>Read people's experience on using pipu</p>
@@ -14,11 +11,9 @@ const BlogPage = ({ data }) => {
       <ul>
         {data.allMdx.nodes.map((node) => (
           <article key={node.id}>
-            <h2 className={title}>{node.frontmatter.title}</h2>
-            <p className={posted}>Posted: {node.frontmatter.date}</p>
-            <div className={body}>
-              <MDXRenderer>{node.body}</MDXRenderer>
-            </div>
+            <h2>
+              <Link to={`/blog/${node.slug}`}>{node.frontmatter.title}</Link>
+            </h2>
           </article>
         ))}
       </ul>
@@ -35,7 +30,7 @@ export const mdxQuery = graphql`
           title
         }
         id
-        body
+        slug
       }
     }
   }
