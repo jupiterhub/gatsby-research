@@ -19,3 +19,7 @@ The real power is that it comes by default with GraphQL which serves as the inte
 **About the documentation format**
 
 Documentation is begginner friendly, even with someone that do not have react/graphql knowledge. Concepts are explored and the steps are broken down in clean pieces.
+
+# Demo
+
+https://gatsbyresearchmain.gatsbyjs.io/
